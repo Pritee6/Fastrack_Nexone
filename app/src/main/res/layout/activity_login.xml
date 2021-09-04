@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast Track"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="26sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPhoneNumber1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Phone Number"
+                android:digits="0123456789"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:drawableRight="@drawable/phone"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPassword1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:textColorHint="@color/colorAccentDark"
+                app:passwordToggleEnabled="true"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:drawableRight="@drawable/password"/>
+
+            <TextView
+                android:id="@+id/txtForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="@color/blue"
+                android:layout_gravity="end"
+                android:layout_margin="8dp"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:backgroundTint="@color/blue"
+                app:backgroundTint="@color/blue"
+                android:background="@drawable/login_button_shape"/>
+
+            <TextView
+                android:id="@+id/txtCreateAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Create Your Account"
+                android:textColor="@color/blue"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

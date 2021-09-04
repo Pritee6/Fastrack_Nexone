@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fastrack_Nexon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Open_Drawer">Open Navigation Drawer</string>
+
+    <string name="Close_Drawer">Close Navigation Drawer</string>
+
+    <string name="Data_And_Analytics">Advanced analytics specialists make the right decisions and optimizations using a combination of in-house and 3rd party technologies.</string>
+
+    <string name="Marketing_Strtegy">Rigor and imagination applied to the craft of a powerful foundation and role the brand can play in people’s lives, priming it to hit cultural bloodstream, and stay there.</string>
+
+    <string name="Media_Management">Successfully running some demand funnels often requires a deep understanding of media – whether it’s implementing ads, refining campaign targeting or vetting vendors and making buys themselves.</string>
+
+    <string name="Demand_Funnels">Our demand funnels are highly specific touchpoint journeys produced and launched to drive demand with right message, at the right time, delivered.</string>
+
+</resources>

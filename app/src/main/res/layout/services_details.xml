@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@drawable/gradient_background"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:includeFontPadding="false"
+            android:text="Service Name"
+            android:textColor="@color/black"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:id="@+id/txt_serviceTitle"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img_servicesIcon"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background"
+            app:background="@color/white"
+            app:backgroundTint="@color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tell Us About Your Project"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Let us help you get your business online and grow it with passion."
+                android:textColor="@color/gray"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtWebsiteURL"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Website URL"
+                android:inputType="textUri"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Your Name"
+                android:inputType="text"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Phone"
+                android:digits="0123456789"
+                android:ems="10"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:layout_gravity="center_horizontal"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtCompany"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Company"
+                android:inputType="text"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtDetails"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorAccentDark"
+                android:hint="Details"
+                android:inputType="text"/>
+
+            <Button
+                android:id="@+id/btnnSendInquiry"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="SEND INQUIRY"
+                android:fontFamily="serif"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:backgroundTint="@color/blue"
+                app:backgroundTint="@color/blue"
+                android:background="@drawable/login_button_shape"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

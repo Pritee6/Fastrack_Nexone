@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "86364148534",
+    "project_id": "otp-verification-81221",
+    "storage_bucket": "otp-verification-81221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86364148534:android:14ec9d506e6fecf6d85997",
+        "android_client_info": {
+          "package_name": "com.example.fastrack_nexon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86364148534-uitflpoue24q5bqvrvornvpiid0i2pqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fastrack_nexon",
+            "certificate_hash": "e65eabf958a54227b3ce8d5b3c7998e57b7532c5"
+          }
+        },
+        {
+          "client_id": "86364148534-bke27od59a3q974o9fsjnru2qr357k2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1WYPAtGJioMgDsxBKgJZfZFwPiU19w9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86364148534-bke27od59a3q974o9fsjnru2qr357k2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
